@@ -7,7 +7,7 @@ const Blog = (props) => {
         <div>
             <img className='w-64' src={img} alt="" />
             <img src={authorImg} alt="" />
-            <p>{authorName}</p>
+            <p className='bg-primary'>{authorName}</p>
             <p>{publishDate}</p>
             <p>{readTime}</p>
             <h1>{blogTitle}</h1>
