@@ -4,7 +4,7 @@ import Wisdom from './components/Wisdom/Wisdom'
 
 function App() {
   return (
-    <div className="App">
+    <div className="App mx-12">
       <Header></Header>
       <Wisdom></Wisdom>
     </div>

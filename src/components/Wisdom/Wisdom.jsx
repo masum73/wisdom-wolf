@@ -11,7 +11,7 @@ const Wisdom = () => {
     }, [])
 
     return (
-        <div className='wisdom-container'>
+        <div className='wisdom-container flex justify-center gap-3'>
             <div className='blog-container'>
                 {
                     blogs.map(blog => <Blog
@@ -20,8 +20,8 @@ const Wisdom = () => {
                     ></Blog>)
                 }
             </div>
-            <div className='bookmarked-container'>
-
+            <div className='bookmarked-container p-2'>
+                <h1>Hello Bookmarked</h1>
             </div>
         </div>
     );
