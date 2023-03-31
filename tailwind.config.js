@@ -10,7 +10,14 @@ export default {
       {
         mytheme: {
           primary: "#f3f4f6",
-          secondary: "#d1d5db"
+          secondary: "#d1d5db",
+          accent: "#08637c",
+          neutral: "#141824",
+          base100: "#3E3145",
+          info: "#779DE4",
+          success: "#27B469",
+          warning: "#F8C463",
+          error: "#E72754",
         },
       },
     ],
