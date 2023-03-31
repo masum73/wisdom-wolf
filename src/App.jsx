@@ -5,7 +5,7 @@ import Wisdom from './components/Wisdom/Wisdom'
 
 function App() {
   return (
-    <div className="App mx-60">
+    <div className="App flex flex-col items-center justify-center">
       <Header></Header>
       <Wisdom></Wisdom>
       <Blog></Blog>

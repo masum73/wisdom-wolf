@@ -2,9 +2,9 @@ import React from 'react';
 import './Header.css'
 const Header = () => {
     return (
-        <div className="navbar bg-base100">
+        <div className="navbar bg-base100 w-10/12 md:w-9/12 mb-3">
             <div className="flex-1">
-                <a className="btn btn-ghost normal-case text-xl">Wisdom Wolf</a>
+                <a className="normal-case text-xl font-bold">Wisdom Wolf</a>
             </div>
             <div className="flex-none gap-2">
                 <div className="form-control">

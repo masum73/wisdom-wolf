@@ -1,16 +1,16 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBookmark} from '@fortawesome/free-solid-svg-icons';
+import { faBookmark} from '@fortawesome/free-regular-svg-icons';
 import './Blogs.css'
 const Blogs = (props) => {
     const { img, blogTitle, authorName, publishDate, authorImg, readTime } = props.blog;
     const addTime = props.addTime;
     const addBookmark = props.addBookmark;
-    console.log(props.blog);
+    //console.log(props.blog);
     return (
-        <div className="card card-compact w-full bg-base-100 shadow-xl m-2">
+        <div className="card card-compact w-full bg-base-100 shadow-xl m-2 p-2 md:p-5">
             <figure><img src={img} alt="" /></figure>
-            <div className="card-body">
+            <div className="card-body p-0">
                 <div className='flex flex-row justify-between items-center w-full'>
                     <div className='flex flex-row justify-start items-center'>
                         <img className='w-10 rounded-full mr-2' src={authorImg} alt="" />
@@ -20,7 +20,7 @@ const Blogs = (props) => {
                         </div>
                     </div>
                     <div>
-                        <p>{readTime} min read <FontAwesomeIcon onClick={() =>addBookmark(blogTitle)} icon={faBookmark}/></p>
+                        <p>{readTime} min read <FontAwesomeIcon className='cursor-pointer' onClick={() =>addBookmark(blogTitle)} icon={faBookmark}/></p>
                     </div>
                 </div>
                 <h2 className="card-title">{blogTitle}</h2>

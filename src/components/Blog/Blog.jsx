@@ -24,10 +24,10 @@ const Blog = () => {
         }
     ]
     return (
-        <div className='flex flex-col justify-center items-center mt-3'>
+        <div className='flex flex-col justify-center items-center mt-3 w-full'>
             {
                 questions.map(q => {
-                    return (<div key={q.id} className="w-1/3 collapse collapse-open border border-base-300 bg-base-100 rounded-box mb-2">
+                    return (<div key={q.id} className="w-10/12 md:w-9/12 collapse collapse-open border border-base-300 bg-base-100 rounded-box mb-2">
                         <div className="collapse-title text-xl font-medium">
                             {q.question}
                         </div>
