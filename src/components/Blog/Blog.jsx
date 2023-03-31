@@ -4,17 +4,10 @@ import { faBookmark} from '@fortawesome/free-solid-svg-icons';
 import './Blog.css'
 const Blog = (props) => {
     const { img, blogTitle, authorName, publishDate, authorImg, readTime } = props.blog;
+    const addTime = props.addTime;
+    const addBookmark = props.addBookmark;
     console.log(props.blog);
     return (
-        // <div>
-        //     <img className='w-64' src={img} alt="" />
-        //     <img src={authorImg} alt="" />
-        //     <p className='bg-primary'>{authorName}</p>
-        //     <p>{publishDate}</p>
-        //     <p>{readTime}</p>
-        //     <h1>{blogTitle}</h1>
-        //     <a href="#">Mark as Read</a>
-        // </div>
         <div className="card card-compact w-96 bg-base-100 shadow-xl m-2">
             <figure><img src={img} alt="" /></figure>
             <div className="card-body">
@@ -27,12 +20,12 @@ const Blog = (props) => {
                         </div>
                     </div>
                     <div>
-                        <p>{readTime} <FontAwesomeIcon icon={faBookmark}/></p>
+                        <p>{readTime} min read <FontAwesomeIcon onClick={() =>addBookmark(blogTitle)} icon={faBookmark}/></p>
                     </div>
                 </div>
                 <h2 className="card-title">{blogTitle}</h2>
                 <div className="card-actions justify-start">
-                    <button className='btn btn-secondary'>Mark as Read</button>
+                    <button className='btn btn-secondary' onClick={()=>addTime(readTime)}>Mark as Read</button>
                 </div>
             </div>
         </div>

@@ -1,38 +1,38 @@
 [
     {
-        "id": "1",
+        "id": 1,
         "authorName" : "Mr. Raju",
         "blogTitle": "How to get your first job as a self-taught programmer",
         "img": "https://images.unsplash.com/photo-1534665482403-a909d0d97c67?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
         "authorImg": "https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
-        "readTime": "05 min read",
+        "readTime": 5,
         "publishDate": "March 21, 2023"
     },
     {
-        "id": "2",
+        "id": 2,
         "authorName" : "Mr. Saju",
         "blogTitle": "How to be a JS Developer",
         "img": "https://images.unsplash.com/photo-1672307974995-cd253f7f7eeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
         "authorImg": "https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
-        "readTime": "10 min read",
+        "readTime": 10,
         "publishDate": "February 26, 2023"
     },
     {
-        "id": "3",
+        "id": 3,
         "authorName" : "Mr. Kaju",
         "blogTitle": "How to master in React",
         "img": "https://images.unsplash.com/photo-1590608897129-79da98d15969?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
         "authorImg": "https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
-        "readTime": "15 min read",
+        "readTime": 15,
         "publishDate": "January 14, 2023"
     },
     {
-        "id": "4",
+        "id": 4,
         "authorName" : "Mr. Paju",
         "blogTitle": "How to work as a freelance web developer",
         "img": "https://images.unsplash.com/photo-1576936422505-18d321d54d40?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
         "authorImg": "https://images.unsplash.com/photo-1599566150163-29194dcaad36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
-        "readTime": "20 min read",
+        "readTime": 20,
         "publishDate": "January 10, 2023"
     }
 ]
