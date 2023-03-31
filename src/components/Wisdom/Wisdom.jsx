@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import Blog from '../Blog/Blog';
+import Blogs from '../Blogs/Blogs';
 import './Wisdom.css'
 import Time from '../Time/Time';
 import Bookmarked from '../Bookmarked/Bookmarked';
@@ -34,17 +34,17 @@ const Wisdom = () => {
     }
     return (
         <div className='wisdom-container flex justify-center gap-3'>
-            <div className='blog-container'>
+            <div className='blog-container w-9/12 flex flex-col justify-center items-center'>
                 {
-                    blogs.map(blog => <Blog
+                    blogs.map(blog => <Blogs
                     key = {blog.id}
                     blog = {blog}
                     addTime = {addTime}
                     addBookmark = {addBookmark}
-                    ></Blog>)
+                    ></Blogs>)
                 }
             </div>
-            <div className='bookmarked-container p-2'>
+            <div className='bookmarked-container p-2 w-1/4'>
                 <Time timeTotal = {time} ></Time>
                 <br />
                 <Bookmarked bookmarkList = {bookmarkList}></Bookmarked>
